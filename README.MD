@@ -18,13 +18,13 @@ Who you _**do not**_ have to trust:
 
 ## Usage
 ```bash
-docker container run --rm Zoltu/ethereum-key-generator
+docker container run --rm zoltu/ethereum-key-generator@sha256:93b4d7bfcd95fdb720c9fdf294cfdfc4c3c18a26b45ad96534333c35ff278677
 ```
 
 ## Building
 ```bash
-docker image build --tag Zoltu/ethereum-key-generator .
+docker image build --tag zoltu/ethereum-key-generator .
 ```
 
-## TODO
+## To Do
 * Create or locate a key generator that has far fewer dependencies.  This one already existed, so I used it but it appears to have a _lot_ of dependencies.  In theory, you shouldn't need much to create a key generator... just something that can do secp256k1 and maybe some string/bignumber manipulation.
